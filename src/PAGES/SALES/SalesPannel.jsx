@@ -22,7 +22,7 @@ const serviceLabel = {
 };
 
 /* ── component ── */
-const SalesPanel = () => {
+const SalesPannel = () => {
   const navigate = useNavigate();
   const token = localStorage.getItem('token');
   const [contacts, setContacts] = useState([]);
@@ -332,4 +332,4 @@ const SalesPanel = () => {
   );
 };
 
-export default SalesPanel;
+export default SalesPannel;
